@@ -10,8 +10,9 @@ The target variable is:
 
 ```text
 exam_score
-Dataset
 ```
+
+## Dataset
 
 The dataset contains student academic performance records with features related to:
 
@@ -22,7 +23,7 @@ Sleep and physical activity
 Tutoring and academic support
 Family income and learning resources
 
-Dataset summary:
+### Dataset summary:
 
 Item	Value
 Original records	6,607
@@ -30,7 +31,8 @@ Cleaned records	6,378
 Original columns	20
 Final modeling features	27
 Target variable	exam_score
-Models Used
+
+## Models Used
 
 The project compares three regression models:
 
@@ -44,7 +46,9 @@ Mean Absolute Error
 Root Mean Squared Error
 R² Score
 Cross-validation R² Score
-Results
+
+## Results
+
 Model	MAE	RMSE	R² Score
 Linear Regression	0.487	2.043	0.731
 Random Forest Regressor	1.237	2.440	0.617
@@ -52,13 +56,14 @@ Decision Tree Regressor	1.674	3.136	0.367
 
 Linear Regression performed best overall, with the highest R² score and the lowest RMSE.
 
-Key Findings
-Attendance was one of the strongest predictors of exam scores.
-Hours studied had a positive relationship with academic performance.
-Previous scores were also highly useful for prediction.
-Lifestyle factors had a smaller effect compared to academic factors.
-Files
-File	Description
+## Key Findings
+• Attendance was one of the strongest predictors of exam scores.
+• Hours studied had a positive relationship with academic performance.
+• Previous scores were also highly useful for prediction.
+• Lifestyle factors had a smaller effect compared to academic factors.
+
+
+## File	Description
 Final_code.py	Main project code
 StudentPerformanceFactors (1).csv	Original dataset
 cleaned_data.csv	Cleaned dataset
@@ -71,7 +76,7 @@ training_size_performance.png	Training-size performance chart
 feature_importance.png	Feature importance chart
 
 
-Tools Used:
+## Tools Used
 Python
 Pandas
 NumPy
@@ -80,5 +85,5 @@ Seaborn
 Scikit-learn
 Joblib
 
-Conclusion:
+## Conclusion
 This project shows that simple regression models can effectively predict student exam performance when academic behavior and support-related factors are included. Linear Regression performed best, suggesting that the relationship between the selected features and exam scores is mostly linear.
