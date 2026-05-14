@@ -11,6 +11,7 @@ The target variable is:
 ```text
 exam_score
 Dataset
+```
 
 The dataset contains student academic performance records with features related to:
 
@@ -68,19 +69,9 @@ r2_comparison.png	Model comparison chart
 cross_validation_performance.png	Cross-validation chart
 training_size_performance.png	Training-size performance chart
 feature_importance.png	Feature importance chart
-How to Run
 
-Install the required libraries:
 
-pip install pandas numpy matplotlib seaborn scikit-learn joblib
-
-Run the main Python file:
-
-python Final_code.py
-
-Running the code will clean the data, train the models, evaluate performance, and generate output files and charts.
-
-Tools Used
+Tools Used:
 Python
 Pandas
 NumPy
@@ -88,6 +79,6 @@ Matplotlib
 Seaborn
 Scikit-learn
 Joblib
-Conclusion
 
+Conclusion:
 This project shows that simple regression models can effectively predict student exam performance when academic behavior and support-related factors are included. Linear Regression performed best, suggesting that the relationship between the selected features and exam scores is mostly linear.
