@@ -44,14 +44,19 @@ The dataset contains student academic performance records with features related 
 The project compares three regression models:
 
 • Linear Regression
+
 • Decision Tree Regressor
+
 • Random Forest Regressor
 
 The models were evaluated using:
 
 • Mean Absolute Error
+
 • Root Mean Squared Error
+
 • R² Score
+
 • Cross-validation R² Score
 
 ## Results
@@ -67,8 +72,11 @@ Linear Regression performed best overall, with the highest R² score and the low
 
 ## Key Findings
 • Attendance was one of the strongest predictors of exam scores.
+
 • Hours studied had a positive relationship with academic performance.
+
 • Previous scores were also highly useful for prediction.
+
 • Lifestyle factors had a smaller effect compared to academic factors.
 
 
@@ -90,11 +98,17 @@ Linear Regression performed best overall, with the highest R² score and the low
 
 ## Tools Used
 • Python
+
 • Pandas
+
 • NumPy
+
 • Matplotlib
+
 • Seaborn
+
 • Scikit-learn
+
 • Joblib
 
 ## Conclusion
