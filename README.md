@@ -41,7 +41,7 @@ The dataset contains student academic performance records with features related 
 
 ## Models Used
 
-The project compares three regression models:
+### The project compares three regression models:
 
 • Linear Regression
 
@@ -49,7 +49,7 @@ The project compares three regression models:
 
 • Random Forest Regressor
 
-The models were evaluated using:
+### The models were evaluated using:
 
 • Mean Absolute Error
 
