@@ -17,10 +17,15 @@ exam_score
 The dataset contains student academic performance records with features related to:
 
 • Study habits
+
 • Attendance
+
 • Previous academic performance
+
 • Sleep and physical activity
+
 • Tutoring and academic support
+
 • Family income and learning resources
 
 ### Dataset summary:
